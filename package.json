@@ -1,6 +1,6 @@
 {
   "name": "tango-names",
-  "version": "2.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "Get random names from tango musicians",
   "main": "dist/index.js",
   "scripts": {
@@ -13,11 +13,12 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "watch:test": "mocha --watch",
     "lint": "eslint src",
-    "validate": "npm-run-all --parallel test lint build"
+    "validate": "npm-run-all --parallel test lint build",
+    "release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fedesilvaponte/tango-names.git"
+    "url": "https://github.com/fedesilvaponte/tango-names.git"
   },
   "keywords": [
     "random",
@@ -52,7 +53,8 @@
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "rimraf": "2.5.4",
-    "webpack": "1.13.1"
+    "webpack": "1.13.1",
+    "semantic-release": "^4.3.5"
   },
   "nyc": {
     "all": true,
