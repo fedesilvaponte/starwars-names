@@ -1,3 +1,3 @@
-# starwars-names
+# tango-names
 
-For all your random Star Wars character needs
+For all your random Tango Musicians needs
