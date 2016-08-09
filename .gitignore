@@ -4,3 +4,4 @@ coverage/
 dist/
 .idea
 stp
+npm-debug.log
