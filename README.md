@@ -7,6 +7,19 @@ Imagine you are chating with someone about Tango and you want to throw a random 
 
 > This repo was created as part of a Frontend Masters Workshop.
 
-Gets a random name from a list of tango musicians. 
+# Installation
+
+npm install tango-names
+
+# Usage
+
+```javascript
+    var tangoNames = require('tango-names');
+    var allNames = tangoNames.all(); // will get all names in the list
+    var randomName = tangoNames.random(); // will get a random name
+```
+
+
+    
 
 
